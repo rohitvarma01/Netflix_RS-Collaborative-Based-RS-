@@ -2,13 +2,17 @@
 
 ## Bussiness Problem:
 	1) Why we are buliding recommendation system?
-		- The need to build robust movie recommendation systems is extremely important given the huge demand for 
-		  personalized content of modern consumers.
-		- Once at home, sitting in front of TV seems like a fruitless exercise with no control and no remembrance of content that we consumed. 
-		  Netflix is an intelligent platform which understands our tastes and preferences and not just run on autopilot.
-		- The main goal to build this recommendation system is to connecting people with movies that they love. To help customers find 
-		  those movies, they developed world-class movie recommendation system: CinematchSM by NETFLIX.
-		- Actually its job is to predict whether costumer will enjoy a movie based on how much they liked or disliked the other movies.
+		- The need to build robust movie recommendation systems is extremely important given the huge 
+		  demand for personalized content of modern consumers.
+		- Once at home, sitting in front of TV seems like a fruitless exercise with no control and no 
+		  remembrance of content that we consumed. 
+		  Netflix is an intelligent platform which understands our tastes and preferences and not just 
+		  run on autopilot.
+		- The main goal to build this recommendation system is to connecting people with movies that 
+		  they love. To help customers find those movies, they developed world-class movie 
+		  recommendation system: CinematchSM by NETFLIX.
+		- Actually its job is to predict whether costumer will enjoy a movie based on how much they 
+		  liked or disliked the other movies.
 		  By using that prediction netflix build personal RS for each costumer based on their tastes. 
 
 ## Objetive and Constraints:
@@ -32,7 +36,8 @@
 
 ## 3 Types of Alg. (Approaches):
 	1) Popular Movies: 
-		This algorithm handpicks trending content on the platform and recommends these movies to all the users. 
+		This algorithm handpicks trending content on the platform and recommends these movies 
+		to all the users. 
 		There is a major absence of personalization since every user would be shown same content. 
 		It also implies prominence of clickbait content with eye-catching thumbnail. 
 		This algorithm fails to showcase the vast repository of titles available on platform.
@@ -43,20 +48,22 @@
 		It tries to create a personal/watchlist of every user before movie recommendations. 
 		The major problem is cold-start problem when a new user arrives on platform and the engine 
 		isn’t able to fire right reccos due to absence of user history. 
-		It also assumes its users to be logical and their movie choices to be representative of their true taste. 
+		It also assumes its users to be logical and their movie choices to be representative of their 
+		true taste. 
 		But there arises a situation where all the users are watching similar content based on 
 		thumbnail and thus similar content is repeated for every user. 
 		It is a vicious cycle with similar movies being repeated in loop and again the variety of 
 		content never surfaces upfront.
 		
 	3)Item based filtering:
-		First thing first, it does not need any user level data and the recco. engine can be up and running 
-		even in an isolated home PC (No data privacy issue). 
-		The algorithm relies on the basic assumption of why a user is watching a movie, is it due to actor 
-		or director or war scene or revenge or based on novel? (Based on this each user's profile is generated, 
-		which then used to make suggestion to each user.
+		First thing first, it does not need any user level data and the recco. engine can be up 
+		and running even in an isolated home PC (No data privacy issue). 
+		The algorithm relies on the basic assumption of why a user is watching a movie, is it 
+		due to actor or director or war scene or revenge or based on novel? (Based on this each user's 
+		profile is generated, which then used to make suggestion to each user.
 		As user take more action on that recommendation then RS becomes more & more accurate for that user).
-		This understanding of consumer mindset forms most important part in predicting what the user would watch next?
+		This understanding of consumer mindset forms most important part in predicting what the user 
+		would watch next?
 
 ## DATA:
 	#movie  : 17K
