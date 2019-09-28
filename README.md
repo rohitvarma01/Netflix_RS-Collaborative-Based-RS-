@@ -69,5 +69,12 @@
 	#movie  : 17K
 	#Users  : 480K
 	#ratings: 100M    
+	
+## Referred Sources:
+	- https://www.kaggle.com/netflix-inc/netflix-prize-data
+	- Blog: https://medium.com/netflix-techblog/netflix-recommendations-beyond-the-5-stars-part-1-55838468f429
+	- surprise lib.: http://surpriselib.com/
+	- surprise lib. doc: http://surprise.readthedocs.io/en/stable/getting_started.html (i use many models from this library)
+	- Research paper: http://courses.ischool.berkeley.edu/i290-dm/s11/SECURE/a1-koren.pdf 
 
 ## Blog_link:
