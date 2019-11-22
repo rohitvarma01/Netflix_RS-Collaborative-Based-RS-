@@ -73,6 +73,7 @@
 ## Referred Sources:
 	- https://www.kaggle.com/netflix-inc/netflix-prize-data
 	- Blog: https://medium.com/netflix-techblog/netflix-recommendations-beyond-the-5-stars-part-1-55838468f429
+		https://towardsdatascience.com/build-your-own-recommendation-engine-netflix-demystified-demo-code-550401d4885e
 	- surprise lib.: http://surpriselib.com/
 	- surprise lib. doc: http://surprise.readthedocs.io/en/stable/getting_started.html (i use many models from this library)
 	- Research paper: http://courses.ischool.berkeley.edu/i290-dm/s11/SECURE/a1-koren.pdf 
