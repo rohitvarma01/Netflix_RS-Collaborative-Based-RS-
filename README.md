@@ -11,9 +11,9 @@
 		- The main goal to build this recommendation system is to connecting people with movies that 
 		  they love. To help customers find those movies, they developed world-class movie 
 		  recommendation system: CinematchSM by NETFLIX.
-		- Actually its job is to predict whether costumer will enjoy a movie based on how much they 
+		- Actually its job is to predict whether customer will enjoy a movie based on how much they 
 		  liked or disliked the other movies.
-		  By using that prediction netflix build personal RS for each costumer based on their tastes. 
+		  By using that prediction netflix build personal RS for each customer based on their tastes. 
 
 ## Objetive and Constraints:
 		1) Predicting ratings that would a customer give to a movie that he has not yet rated.
